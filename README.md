@@ -6,5 +6,4 @@ My Custom System Info Fetcher
 2. `cd fetchy`
 3. `chmod +x fetchy.sh`
 4. `./fetchy.sh`
-###(Optional)
-5. sudo cp fetchy.sh /usr/bin/fetchy && sudo chmod +x /usr/bin/fetchy
+5. (Optional) sudo cp fetchy.sh /usr/bin/fetchy && sudo chmod +x /usr/bin/fetchy

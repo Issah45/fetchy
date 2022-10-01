@@ -1,9 +1,10 @@
 
 red=$"\e[1;31m"
-black=$"\e[0;32m"
+green=$"\e[0;32m"
 
-printf "$red OS -> $black" && uname -o
-printf "$red Kernel -> $black" && uname -r
-printf "$red Architecture -> $black" && uname -m
+printf "$green /-$red  OS -> $green" && uname -o
+printf "$green/-$red Kernel -> $green" && uname -r
+printf "$green\-$red Host Name -> $green" && uname -n
+printf "$green \-$red  Architecture -> $green" && uname -m
 #printf "Network -> " && uname -s
 #printf "Platform ->" && uname -i
